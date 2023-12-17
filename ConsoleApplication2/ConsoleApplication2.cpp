@@ -85,20 +85,20 @@ public:
 };
 
 int main() {
-    Company c1("Feature", 13, true, 5);
+    Company c1("Feature", 13, true, 4);
     c1.printCompanyInfo();
 
-    Employee e1("Crocks", 30, true, 8);
+    Employee e1("Crocks", 25, true, 7);
     e1.printEmployeeInfo();
 
-    Vehicle v1("Ronald", 23, false, 4);
+    Vehicle v1("Toyota", 23, false, 3);
     v1.printVehicleInfo();
 
-    Truck t1(3.0, 5, "Truck", 2015, false, 4);
+    Truck t1(3.0, 5, "Truck", 2017, false, 1);
     t1.printTruckInfo();
     t1.printVehicleInfo();
 
-    Car car1(5, "Diesel", "SUV", 2021, false, 4);
+    Car car1(5, "Super", "SUV", 2019, false, 6);
     car1.printCarInfo();
     car1.printVehicleInfo();
 
